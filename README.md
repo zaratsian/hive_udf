@@ -11,5 +11,5 @@ This repo shows examples of how to use Hive UDFs to call python scripts. More sp
 <br>
 <br>2.)&nbsp;&nbsp;<strong>hive_udf_advanced</strong> (example showing how to call a python environment (with custom packages) as a Hive UDF, using "ADD ARCHIVE")
 <br>
-<br>To test, run this cmd on Hive: hive -f hive_udf_advanced.hql 
+<br>To test, run this cmd on Hive: <code>hive -f hive_udf_advanced.hql</code>
 </p>
