@@ -11,5 +11,5 @@ select * from testtable limit 5;
 
 
 add archive hive_udf_advanced.tar.gz;
-select transform (id, col1, col2, col3) using 'python hive_udf_advanced.py' as (out1 STRING, out2 STRING, out3 STRING) from testtable; 
+select transform (id, col1, col2, col3) using 'python hive_udf.py' as (out1 STRING, out2 STRING, out3 STRING) from testtable; 
 
