@@ -10,6 +10,6 @@ load data local inpath "data.csv" into table testtable;
 select * from testtable limit 5;
 
 
-add archive hive_udf_advanced.tar.gz;
+add archive hive_udf_addarchive.tar.gz;
 select transform (id, col1, col2, col3) using 'python hive_udf.py' as (out1 STRING, out2 STRING, out3 STRING) from testtable; 
 
